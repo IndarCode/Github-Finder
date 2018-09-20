@@ -27,6 +27,7 @@ $(document).ready(function(){
 							        <div class="repo-name">
 							          <h3>${repo.name} - <span>${repo.description}</span></h3>
 							          <p><span>Language :</span> ${repo.language}</p>
+							          <a href="${repo.homepage}" target="_blank">Demo Link</a>
 							        </div>
 							        <div class="repo-info">
 							          <span class="pink">Forks Count ${repo.forks_count}</span>
